@@ -1,3 +1,4 @@
+import { SparkleIcon } from '@phosphor-icons/react/dist/ssr';
 import { Logo } from './logo';
 import { Button } from './ui/button';
 
@@ -23,13 +24,9 @@ export const Header = () => {
             Github
           </a>
         </Button>
-        <Button size={'sm'} asChild>
-          <a
-            href="https://github.com/lunejs/lune/blob/main/docs/getting-started.md"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Get started
+        <Button size={'default'} variant={'outline'} className="rounded-full" asChild>
+          <a href="http://demo.lunejs.com" target="_blank" rel="noopener noreferrer">
+            <SparkleIcon weight="duotone" /> Try Lune
           </a>
         </Button>
       </nav>
