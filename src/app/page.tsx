@@ -2,6 +2,7 @@ import { FeatureCard } from '@/components/feature-card';
 import { FulfillmentCard } from '@/components/fulfillment-card/fulfillment-card';
 import { Header } from '@/components/header';
 import { Hero } from '@/components/hero';
+import { VariantsCard } from '@/components/variants-card/variants-card';
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
         </header>
         <div className="grid grid-cols-1 md:grid-cols-8 gap-8">
           <FulfillmentCard />
-          <FeatureCard className="col-span-1 md:col-span-5"></FeatureCard>
+          <VariantsCard />
           <FeatureCard className="col-span-1 md:col-span-5"></FeatureCard>
           <FeatureCard className="col-span-1 md:col-span-3"></FeatureCard>
         </div>

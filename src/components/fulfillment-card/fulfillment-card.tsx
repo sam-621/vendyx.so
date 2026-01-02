@@ -21,7 +21,7 @@ export const FulfillmentCard = () => {
           <Checkbox
             checked={selected.length === 2}
             onCheckedChange={value => {
-              if (value) setSelected([1, 2]);
+              if (value) setSelected([2, 3]);
               else setSelected([]);
             }}
           />
