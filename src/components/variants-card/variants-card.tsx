@@ -26,7 +26,7 @@ export const VariantsCard = () => {
           <Button
             type="button"
             variant="link"
-            className="hover:no-underline p-0 h-full w-full justify-start"
+            className="hover:no-underline p-0 h-full w-full justify-start font-platform"
           >
             <CircleFadingPlusIcon /> Add option
           </Button>

@@ -1,3 +1,4 @@
+import { CustomFieldsCard } from '@/components/custom-fields-card/custom-fields-card';
 import { FeatureCard } from '@/components/feature-card';
 import { FulfillmentCard } from '@/components/fulfillment-card/fulfillment-card';
 import { Header } from '@/components/header';
@@ -21,7 +22,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-8 gap-8">
           <FulfillmentCard />
           <VariantsCard />
-          <FeatureCard className="col-span-1 md:col-span-5"></FeatureCard>
+          <CustomFieldsCard />
           <FeatureCard className="col-span-1 md:col-span-3"></FeatureCard>
         </div>
       </section>

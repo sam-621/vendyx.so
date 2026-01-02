@@ -3,7 +3,7 @@ import { RoadHorizonIcon, SparkleIcon } from '@phosphor-icons/react/dist/ssr';
 
 export const Hero = () => {
   return (
-    <section className="max-w-5xl mx-auto h-[calc(100svh-24px)] grid items-center">
+    <section className="max-w-5xl mx-auto h-[calc(100svh-24px-32px)] grid items-center">
       <div className="flex flex-col gap-6">
         <div className="flex flex-col">
           <span className="text-sm text-muted-foreground tracking-[0.14em]">v0.1.0</span>
