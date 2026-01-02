@@ -3,17 +3,17 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Lune',
-  description: 'An open-source solution for commerce management.',
+  description: 'An open-source solution for commerce management.'
 };
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased`}>{children}</body>
+      <body className={`dark antialiased p-6`}>{children}</body>
     </html>
   );
 }
