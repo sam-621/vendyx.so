@@ -25,7 +25,7 @@ export const Header = () => {
           </a>
         </Button>
         <Button size={'default'} variant={'outline'} className="rounded-full" asChild>
-          <a href="http://demo.lunejs.com" target="_blank" rel="noopener noreferrer">
+          <a href="http://demo.lune.to" target="_blank" rel="noopener noreferrer">
             <SparkleIcon weight="duotone" /> Try Lune
           </a>
         </Button>
