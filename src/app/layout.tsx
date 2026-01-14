@@ -10,7 +10,7 @@ const geistSans = Geist({
 
 export const metadata: Metadata = {
   title: 'Vendyx',
-  description: 'An open-source solution for commerce management.'
+  description: 'Commerce management for every business.'
 };
 
 export default function RootLayout({
