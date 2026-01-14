@@ -34,15 +34,20 @@ export const Hero = () => {
             {/* <div className="flex items-center gap-4 w-full">
             <GetVendyx />
           </div> */}
-            <Button variant={'link'} className="w-fit absolute bottom-6 right-6 sm:static" asChild>
+            {/* <Button
+              variant={'link'}
+              disabled
+              className="w-fit absolute bottom-6 right-6 sm:static"
+              asChild
+            >
               <a
                 href="https://sam621.notion.site/2dc08342becf80b49625fd11ee0ef384?v=2dc08342becf80fdbdbe000cef2c8fcd&source=copy_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <RoadHorizonIcon weight="duotone" /> View roadmap
+                <RoadHorizonIcon weight="duotone" /> Learn
               </a>
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>
